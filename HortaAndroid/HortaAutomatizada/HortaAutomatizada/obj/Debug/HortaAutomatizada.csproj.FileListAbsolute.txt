@@ -1,0 +1,159 @@
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.dll.config
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.pdb
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\ExifLib.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\FormsToolkit.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\MvvmHelpers.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Newtonsoft.Json.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.Abstractions.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.Abstractions.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.Abstractions.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\FormsToolkit.xml
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\MvvmHelpers.xml
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Newtonsoft.Json.xml
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.pdb
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.xml
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.Abstractions.xml
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.xml
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.Abstractions.xml
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.pdb
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.xml
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.Abstractions.pdb
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.Abstractions.xml
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.App.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.ConnectModulePage.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Android.MenuPage.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Agendar.AgendarTarefaPage.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.ConsumoPage.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Controls.HeaderDivider.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Controls.LabelSection.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.ExecutarTarefaPage.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.AndamentoPage.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreArduinoPage.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreSoftAndroidPage.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreGrupoPage.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreDisciplinaPage.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Agendar.AgendaDiasDiag.xaml.g.cs
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.dll
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.pdb
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.csprojResolveAssemblyReference.cache
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.dll.config
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.pdb
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\ExifLib.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\FormsToolkit.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\MvvmHelpers.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.Abstractions.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.Abstractions.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.Abstractions.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\FormsToolkit.xml
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\MvvmHelpers.xml
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.pdb
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.xml
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.Abstractions.xml
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.xml
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.Abstractions.xml
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.pdb
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.xml
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.Abstractions.pdb
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.Abstractions.xml
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.csprojResolveAssemblyReference.cache
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.App.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.ConnectModulePage.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Android.MenuPage.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Agendar.AgendarTarefaPage.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.ConsumoPage.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Controls.HeaderDivider.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Controls.LabelSection.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.ExecutarTarefaPage.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.AndamentoPage.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreArduinoPage.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreSoftAndroidPage.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreGrupoPage.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreDisciplinaPage.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Agendar.AgendaDiasDiag.xaml.g.cs
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.dll
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.pdb
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.dll.mdb
+C:\Users\Júnio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.dll.mdb
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.dll.mdb
+C:\Users\junio\Desktop\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.dll.mdb
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.dll.config
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.pdb
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\ExifLib.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\FormsToolkit.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\MvvmHelpers.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Newtonsoft.Json.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.Abstractions.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.Abstractions.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.Abstractions.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\FormsToolkit.xml
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\MvvmHelpers.xml
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Newtonsoft.Json.xml
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.pdb
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.xml
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Connectivity.Abstractions.xml
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.xml
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Plugin.Settings.Abstractions.xml
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.pdb
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.xml
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.Abstractions.pdb
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Sockets.Plugin.Abstractions.xml
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.csprojResolveAssemblyReference.cache
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.App.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.ConnectModulePage.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Android.MenuPage.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Agendar.AgendarTarefaPage.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.ConsumoPage.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Controls.HeaderDivider.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Controls.LabelSection.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.ExecutarTarefaPage.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.AndamentoPage.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreArduinoPage.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreSoftAndroidPage.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreGrupoPage.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Sobre.SobreDisciplinaPage.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.Pages.Agendar.AgendaDiasDiag.xaml.g.cs
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.dll
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.pdb
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\obj\Debug\HortaAutomatizada.dll.mdb
+C:\Users\junio\Documents\Visual Studio 2015\Projects\HortaAutomatizada\HortaAutomatizada\HortaAutomatizada\bin\Debug\HortaAutomatizada.dll.mdb

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HortaAutomatizada.Controls;assembly=HortaAutomatizada"
+             x:Class="HortaAutomatizada.Pages.Sobre.SobreDisciplinaPage"
+             Title="Sobre a Disciplina"
+             BackgroundColor="{DynamicResource WindowBackgroundTable}">
+  <ScrollView>
+    <StackLayout Spacing="0">
+      <StackLayout BackgroundColor="{DynamicResource WindowBackgroundTable}"
+                   Spacing="{DynamicResource CardSpacing}"
+                   Padding="{DynamicResource CardPadding}">
+        <Frame>
+          <StackLayout Padding="0" Spacing="0" BackgroundColor="White">
+            <local:LabelSection Text="Universidade de Brasília" />
+            <local:HeaderDivider/>
+            <StackLayout Padding="{StaticResource StandardPadding}" >
+              <StackLayout Padding="32,16,32,0">
+                <Image Grid.Column="1"
+                       Grid.Row="1"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand"
+                       Aspect="AspectFit"
+                       HeightRequest="150"
+                       Source="logo_unb.png"/>
+              </StackLayout>
+              <StackLayout Spacing="0">
+                <Label Text="Instrumentação Eletrônica" Style="{DynamicResource AboutTextStyle}" />
+                <Label Text="Prof. Marcelino Monteiro de Andrade" Style="{DynamicResource AboutDetailTextStyle}" />
+              </StackLayout>
+              <StackLayout Padding="0,16">
+                <Label Text="O curso de Instrumentação Eletrônica visa tornar o aluno apto a utilizar e confeccionar transdutores de diferentes tipos de grandeza a partir de sensores convencionais, e projetar circuitos de interface e filtros analógicos para condicionar os sinais recebidos dos sensores, lque levem em conta tanto as imitações dos dispositivos sensores quanto as dos filtros. Nesse curso são apresentados os princípios físicos e químicos dos sensores e a teoria básica de filtros analógicos." Style="{DynamicResource AboutTextStyle}"/>
+              </StackLayout>
+            </StackLayout>
+          </StackLayout>
+        </Frame>
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:local="clr-namespace:HortaAutomatizada.Controls;assembly=HortaAutomatizada"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HortaAutomatizada.Pages.ExecutarTarefaPage"
+             xmlns:toolkit="clr-namespace:FormsToolkit;assembly=FormsToolkit"
+             Title="{StaticResource NameApp}">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <toolkit:InvertedBooleanConverter x:Key="InvertedBooleanConverter" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <ScrollView>
+    <StackLayout Spacing="0">
+      <StackLayout BackgroundColor="{DynamicResource WindowBackgroundTable}"
+                   Spacing="{DynamicResource CardSpacing}"
+                   Padding="{DynamicResource CardPadding}">
+        <Frame>
+          <StackLayout Spacing="0">
+            <local:LabelSection Text="Parâmetros iniciais"/>
+            <local:HeaderDivider/>
+            <Grid Padding="{StaticResource StandardPadding}"
+                  ColumnSpacing="{StaticResource SmallSpacing}"
+                  BackgroundColor="White">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+
+              </Grid.ColumnDefinitions>
+              <Label Text="Planta:"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     Style="{DynamicResource AboutTextStyle}"/>
+              <Picker Grid.Column="1"
+                      Title="Escolha uma planta"
+                      WidthRequest="200"
+                      HorizontalOptions="CenterAndExpand">
+                <Picker.Items>
+                  <x:String>Valores próprios</x:String>
+                  <x:String>Planta 1</x:String>
+                  <x:String>Planta 2</x:String>
+                  <x:String>Planta 3</x:String>
+                </Picker.Items>
+              </Picker>
+            </Grid>
+            <Entry x:Name="entryTempBelow"
+                   Placeholder="Temperatura máxima"
+                   Keyboard="Numeric"
+                   Text="{Binding TemperaturaMax, Mode=TwoWay}"
+                   HorizontalOptions="Center"/>
+            <local:HeaderDivider/>
+            <local:CustomTimePicker24 x:Name="TempLuminosidade"
+                                      Text="Escolher tempo de luminosidade"
+                                      Time="{Binding EndTime, Mode=TwoWay}"
+                                      Sufix="iluminação"
+                                      Format="HH:mm"/>
+
+            <local:HeaderDivider/>
+            <local:LabelSection Text="Umidade do solo"/>
+            <Grid Padding="{StaticResource StandardPadding}"
+                    ColumnSpacing="{StaticResource SmallSpacing}"
+                    BackgroundColor="White">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+              </Grid.ColumnDefinitions>
+              <Entry Placeholder="Mínimo"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     Text="{Binding UmidadeSoloMin, Mode=TwoWay}"
+                     Keyboard="Numeric"/>
+              <Entry Placeholder="Máximo"
+                     HorizontalOptions="Center"
+                     Text="{Binding UmidadeSoloMax, Mode=TwoWay}"
+                     VerticalOptions="CenterAndExpand"
+                     Keyboard="Numeric"
+                     Grid.Column="1"/>
+            </Grid>
+
+            <local:HeaderDivider/>
+            <local:LabelSection Text="Umidade do ar"/>
+            <Grid Padding="{StaticResource StandardPadding}"
+                    ColumnSpacing="{StaticResource SmallSpacing}"
+                    BackgroundColor="White">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+              </Grid.ColumnDefinitions>
+              <Entry Placeholder="Mínimo"
+                     HorizontalOptions="Center"
+                     Text="{Binding UmidadeArMin, Mode=TwoWay}"
+                     VerticalOptions="CenterAndExpand"
+                     Keyboard="Numeric"/>
+              <Entry Placeholder="Máximo"
+                     HorizontalOptions="Center"
+                     Text="{Binding UmidadeArMax, Mode=TwoWay}"
+                     VerticalOptions="CenterAndExpand"
+                     Keyboard="Numeric"
+                     Grid.Column="1"/>
+            </Grid>
+            <local:HeaderDivider/>
+            <Grid Padding="{StaticResource StandardPadding}"
+                  ColumnSpacing="{StaticResource StandardSpacing}"
+                  IsVisible="{Binding IsBusy, Converter={StaticResource InvertedBooleanConverter}}"
+                  BackgroundColor="White">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+              </Grid.ColumnDefinitions>
+              <Button Text="Aplicar"
+                      BackgroundColor="{StaticResource PrimaryDark}"
+                      Command="{Binding SendDataCommand}"
+                      TextColor="White"/>
+              <Button Text="Limpar"
+                      Grid.Column="1"
+                      BackgroundColor="{StaticResource PrimaryDark}"
+                      TextColor="White"/>
+            </Grid>
+            <StackLayout IsVisible="{Binding IsBusy}"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="Center"
+                         BackgroundColor="White"
+                         Padding="{StaticResource StandardPadding}">
+              <ActivityIndicator IsRunning="{Binding IsBusy}"
+                                 Color="{StaticResource Accent}"/>
+              <Label Text="Enviando dados..."
+                     HorizontalOptions="Center"
+                     Style="{DynamicResource ListItemDetailTextStyle}"/>
+            </StackLayout>
+          </StackLayout>
+        </Frame>
+      </StackLayout>
+    </StackLayout>
+
+  </ScrollView>
+</ContentPage>

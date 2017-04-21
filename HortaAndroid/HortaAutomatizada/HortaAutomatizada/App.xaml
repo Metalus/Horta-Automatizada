@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HortaAutomatizada.App">
+  <Application.Resources>
+    <ResourceDictionary>
+            <x:String x:Key="NameApp">Horta Automatizada</x:String>
+        
+      <!-- Cores Principais -->
+      <Color x:Key="Primary">#53ba9d</Color>
+      <Color x:Key="PrimaryDark">#42947d</Color>
+      <Color x:Key="Accent">#8de2d5</Color>
+      <Color x:Key="NavigationText">White</Color>
+      <Color x:Key="LabelSectionText">#6D6D72</Color>
+      <Color x:Key="DetailTextColor">#979797</Color>
+
+      <!-- Padding -->
+      <Thickness x:Key="SmallPadding">4</Thickness>
+      <Thickness x:Key="MediumPadding">8</Thickness>
+      <Thickness x:Key="StandardPadding">16</Thickness>
+
+      <!-- Spacing -->
+      <x:Double x:Key="SmallSpacing">4</x:Double>
+      <x:Double x:Key="MediumSpacing">8</x:Double>
+      <x:Double x:Key="StandardSpacing">16</x:Double>
+
+      <!-- Cores secundárias -->
+      <OnPlatform x:TypeArguments="Color" Android="#F5F5F5" iOS="#EFEFF4" WinPhone="#EFEFF4" x:Key="WindowBackgroundTable"/>
+      <OnPlatform x:TypeArguments="Color" Android="#F5F5F5" iOS="White" WinPhone="White" x:Key="WindowBackground"/>
+      <OnPlatform x:TypeArguments="Color" Android="#ECECEC" iOS="#C8C7CC" WinPhone="#C8C7CC" x:Key="Divider"/>
+      <Color x:Key="ButtonBorder">#C8C7CC</Color>
+      <Color x:Key="ListSeparator">#C8C7CC</Color>
+
+      <!-- Padding do Card -->
+      <OnPlatform x:TypeArguments="Thickness" Android="8,16" iOS="0,0,0,16" WinPhone="0,0,0,16" x:Key="CardPadding"/>
+      <OnPlatform x:TypeArguments="x:Double" Android="16" iOS="0" WinPhone="0" x:Key="CardSpacing"/>
+
+      <!-- Section Attr -->
+      <OnPlatform x:TypeArguments="x:Double" Android="16" iOS="16" WinPhone="13" x:Key="AboutTextStyleSize" />
+      <OnPlatform x:TypeArguments="x:Double" Android="13" iOS="13" WinPhone="13" x:Key="AboutDetailTextStyleSize" />
+      <OnPlatform x:TypeArguments="x:Double" Android="18" iOS="13" WinPhone="13" x:Key="LabelSectionFontSize" />
+      <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light" x:Key="SectionLabelFontFamily" />
+      <Style x:Key="SectionLabelTextStyle" TargetType="Label" BaseResourceKey="ListItemDetailTextStyle">
+        <Setter Property="FontSize" Value="{DynamicResource LabelSectionFontSize}" />
+        <Setter Property="TextColor" Value="{DynamicResource LabelSectionText}"/>
+        <Setter Property="FontFamily" Value="{DynamicResource SectionLabelFontFamily}"/>
+      </Style>
+
+      <Style x:Key="AboutTextStyle" TargetType="Label" BaseResourceKey="ListItemTextStyle">
+        <Setter Property="FontSize" Value="{DynamicResource AboutTextStyleSize}" />
+      </Style>
+
+      <Style x:Key="AboutDetailTextStyle" TargetType="Label" BaseResourceKey="ListItemDetailTextStyle">
+        <Setter Property="FontSize" Value="{DynamicResource AboutDetailTextStyleSize}" />
+        <Setter Property="TextColor" Value="{DynamicResource DetailTextColor}"/>
+      </Style>
+
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HortaAutomatizada.Controls;assembly=HortaAutomatizada"
+             x:Class="HortaAutomatizada.Pages.AndamentoPage"
+             Title="Horta Automatizada">
+  <ScrollView>
+    <StackLayout Spacing="0">
+      <StackLayout BackgroundColor="{DynamicResource WindowBackgroundTable}"
+                   Spacing="{DynamicResource CardSpacing}"
+                   Padding="{DynamicResource CardPadding}">
+        <Frame>
+          <StackLayout Spacing="0">
+            <local:LabelSection Text="Tanque de água"/>
+            <local:HeaderDivider/>
+            <ProgressBar Progress="{Binding TanqueRate}"/>
+            <Label Text="{Binding TanqueInfo}"
+                   HorizontalOptions="End"
+                   Style="{DynamicResource AboutDetailTextStyle}"/>
+          </StackLayout>
+        </Frame>
+
+        <Frame>
+          <StackLayout Spacing="0">
+            
+            <local:LabelSection Text="Temperatura"/>
+            <local:HeaderDivider/>
+            <ProgressBar Progress="{Binding TemperaturaRate}"/>
+            <Label Text="{Binding Temperatura, StringFormat='{0}ºC'}"
+                   HorizontalOptions="End"
+                   Style="{DynamicResource AboutDetailTextStyle}"/>
+            
+            <local:LabelSection Text="Luz"/>
+            <local:HeaderDivider/>
+            <Switch IsToggled="{Binding Luz}"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"/>
+            
+            <local:LabelSection Text="Umidade do Ar"/>
+            <local:HeaderDivider/>
+            <ProgressBar Progress="{Binding UmidadeArRate}"/>
+            <Label Text="{Binding UmidadeAr, StringFormat='{0}%'}"
+                   HorizontalOptions="End"
+                   Style="{DynamicResource AboutDetailTextStyle}"/>
+            
+            <local:LabelSection Text="Umidade do Solo"/>
+            <local:HeaderDivider/>
+            <ProgressBar Progress="{Binding UmidadeSoloRate}"/>
+            <Label Text="{Binding UmidadeSolo, StringFormat='{0}%'}"
+                   HorizontalOptions="End"
+                   Style="{DynamicResource AboutDetailTextStyle}"/>
+          </StackLayout>
+        </Frame>
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

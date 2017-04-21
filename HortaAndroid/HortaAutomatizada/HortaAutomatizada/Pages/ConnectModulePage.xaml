@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HortaAutomatizada.Controls;assembly=HortaAutomatizada"
+             xmlns:toolkit="clr-namespace:FormsToolkit;assembly=FormsToolkit"
+             x:Class="HortaAutomatizada.Pages.ConnectModulePage">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <toolkit:InvertedBooleanConverter x:Key="InvertedBooleanConverter" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <ScrollView>
+    <StackLayout Spacing="0">
+      <StackLayout BackgroundColor="{DynamicResource WindowBackgroundTable}"
+                   Spacing="{DynamicResource CardSpacing}"
+                   Padding="{DynamicResource CardPadding}">
+        <Frame>
+          <StackLayout Spacing="0">
+            <local:LabelSection Text="Conexão com o módulo WiFi"/>
+            <local:HeaderDivider/>
+            <StackLayout IsVisible="{Binding SearchingModules}"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="Center"
+                         BackgroundColor="White"
+                         Padding="{StaticResource StandardPadding}">
+              <ActivityIndicator IsRunning="{Binding SearchingModules}"
+                                 Color="{StaticResource Accent}"/>
+              <Label Text="Procurando módulo..."
+                     HorizontalOptions="Center"
+                     Style="{DynamicResource ListItemDetailTextStyle}"/>
+            </StackLayout>
+            <StackLayout IsVisible="{Binding SearchingModules, Converter={StaticResource InvertedBooleanConverter}}"
+                                     HorizontalOptions="FillAndExpand"
+                                     VerticalOptions="Center"
+                                     BackgroundColor="White"
+                                     Padding="{StaticResource StandardPadding}">
+              <Entry Placeholder="Digite o IP do módulo"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     Keyboard="Telephone"
+                     Text="{Binding IP, Mode=TwoWay}" />
+              <Button Text="Aplicar"
+                      BackgroundColor="{StaticResource PrimaryDark}"
+                      Command="{Binding ConnectModule}"
+                      TextColor="White"/>
+            </StackLayout>
+          </StackLayout>
+        </Frame>
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HortaAutomatizada.Controls;assembly=HortaAutomatizada"
+             x:Class="HortaAutomatizada.Pages.Sobre.SobreArduinoPage"
+             Title="Sobre o Arduino"
+             BackgroundColor="{DynamicResource WindowBackgroundTable}">
+  <ScrollView>
+    <StackLayout Spacing="0">
+      <StackLayout BackgroundColor="{DynamicResource WindowBackgroundTable}"
+                   Spacing="{DynamicResource CardSpacing}"
+                   Padding="{DynamicResource CardPadding}">
+        <Frame>
+          <StackLayout Padding="0" Spacing="0" BackgroundColor="White">
+            <local:HeaderDivider/>
+            <StackLayout Padding="{StaticResource StandardPadding}" >
+              <StackLayout Padding="32,16,32,0">
+                <Image Grid.Column="1"
+                       Grid.Row="1"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand"
+                       Aspect="AspectFit"
+                       HeightRequest="150"
+                       Source="profile_icon.png"/>
+              </StackLayout>
+              <StackLayout Spacing="0">
+                <Label Text="Arduino" Style="{DynamicResource AboutTextStyle}" />
+                <Label Text="Arduino Uno R3" Style="{DynamicResource AboutDetailTextStyle}" />
+              </StackLayout>
+              <StackLayout Padding="0,16">
+                <Label Text="Arduino Uno R3 é uma placa de microcontrolador com intuito de proporcionar um entendimento de eletrônica mais fácil e prático. Sua simplicidade é a chave do seu sucesso em projetos pequenos e para iniciantes. Outro ponto é a quantidade de shields que trazem ainda mais possibilidades ao Arduino." Style="{DynamicResource AboutTextStyle}"/>
+              </StackLayout>
+            </StackLayout>
+          </StackLayout>
+        </Frame>
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

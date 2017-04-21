@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HortaAutomatizada.Controls;assembly=HortaAutomatizada"
+             x:Class="HortaAutomatizada.Pages.Sobre.SobreSoftAndroidPage">
+  <ScrollView>
+    <StackLayout Spacing="0">
+      <StackLayout BackgroundColor="{DynamicResource WindowBackgroundTable}"
+                   Spacing="{DynamicResource CardSpacing}"
+                   Padding="{DynamicResource CardPadding}">
+        <Frame>
+          <StackLayout Padding="0" Spacing="0" BackgroundColor="White">
+            <local:HeaderDivider/>
+            <StackLayout Padding="{StaticResource StandardPadding}" >
+              <StackLayout Padding="32,16,32,0">
+                <Image Grid.Column="1"
+                       Grid.Row="1"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand"
+                       Aspect="AspectFit"
+                       HeightRequest="150"
+                       Source="icon.png"/>
+              </StackLayout>
+              <StackLayout Spacing="0">
+                <Label Text="Xamarn" Style="{DynamicResource AboutTextStyle}" />
+                <Label Text="Xamarin Forms" Style="{DynamicResource AboutDetailTextStyle}" />
+              </StackLayout>
+              <StackLayout Padding="0,16">
+                <Label Text="Aplicativo feito com Xamarin Forms 2.3 e Xamarin Android 4.2. Desenvolvido para o projeto da Horta Automatizada para a disciplina de Instrumentação eletrônica" Style="{DynamicResource AboutTextStyle}"/>
+              </StackLayout>
+            </StackLayout>
+          </StackLayout>
+        </Frame>
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HortaAutomatizada.Controls;assembly=HortaAutomatizada"
+             x:Class="HortaAutomatizada.Pages.AgendarTarefaPage"
+             Title="{StaticResource NameApp}">
+  <ScrollView>
+    <StackLayout Spacing="0">
+      <StackLayout BackgroundColor="{DynamicResource WindowBackgroundTable}"
+                   Spacing="{DynamicResource CardSpacing}"
+                   Padding="{DynamicResource CardPadding}">
+        <Frame>
+          <StackLayout Spacing="0">
+            <local:LabelSection Text="Dia e horário"/>
+            <local:HeaderDivider/>
+            <Grid Padding="{StaticResource StandardPadding}"
+                  ColumnSpacing="{StaticResource StandardSpacing}"
+                  BackgroundColor="White">
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+              </Grid.RowDefinitions>
+            <Picker x:Name="DiaSemana"
+                    HorizontalOptions="Center"
+                    WidthRequest="80"
+                    VerticalOptions="CenterAndExpand">
+              <Picker.Items>
+                <x:String>Domingo</x:String>
+                <x:String>Segunda</x:String>
+                <x:String>Terça</x:String>
+                <x:String>Quarta</x:String>
+                <x:String>Quinta</x:String>
+                <x:String>Sexta</x:String>
+                <x:String>Sábado</x:String>                
+              </Picker.Items>
+            </Picker>
+              <TimePicker x:Name="DiaTempo"
+                          Format="HH:mm"
+                          WidthRequest="40"
+                          Grid.Row="1"/>
+            </Grid>
+          </StackLayout>
+        </Frame>
+
+        <Frame>
+          <StackLayout Spacing="0">
+            <local:LabelSection Text="Parâmetros iniciais"/>
+            <local:HeaderDivider/>
+            <Grid Padding="{StaticResource StandardPadding}"
+                  ColumnSpacing="{StaticResource SmallSpacing}"
+                  BackgroundColor="White">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+              </Grid.ColumnDefinitions>
+              <Label Text="Plantas definidas:"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     Style="{DynamicResource AboutTextStyle}"/>
+              <Picker Grid.Column="1"
+                      Title="Planta"
+                      WidthRequest="200"
+                      HorizontalOptions="CenterAndExpand">
+                <Picker.Items>
+                  <x:String>Valores próprios</x:String>
+                  <x:String>Planta 1</x:String>
+                  <x:String>Planta 2</x:String>
+                  <x:String>Planta 3</x:String>
+                </Picker.Items>
+              </Picker>
+            </Grid>
+            <Entry x:Name="entryTempBelow"
+                   Placeholder="Temperatura máxima"
+                   Keyboard="Numeric"
+                   HorizontalOptions="Center"/>
+            <local:HeaderDivider/>
+            <local:CustomTimePicker24 x:Name="TempRegacao"
+                                      Text="Escolher tempo de irrigação"
+                                      Sufix="irrigação"
+                                      Format="HH:mm"/>
+            <local:CustomTimePicker24 x:Name="TempLuminosidade"
+                                      Text="Escolher tempo de iluminação"
+                                      Sufix="iluminação"
+                                      Format="HH:mm"/>
+
+                        <local:HeaderDivider/>
+            <local:LabelSection Text="Umidade do solo"/>
+            <Grid Padding="{StaticResource StandardPadding}"
+                  ColumnSpacing="{StaticResource SmallSpacing}"
+                  BackgroundColor="White">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+              </Grid.ColumnDefinitions>
+              <Entry Placeholder="Mínimo"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     Keyboard="Numeric"/>
+              <Entry Placeholder="Máximo"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     Keyboard="Numeric"
+                     Grid.Column="1"/>
+            </Grid>
+
+            <local:HeaderDivider/>
+            <local:LabelSection Text="Umidade do ar"/>
+            <Grid Padding="{StaticResource StandardPadding}"
+                    ColumnSpacing="{StaticResource SmallSpacing}"
+                    BackgroundColor="White">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+              </Grid.ColumnDefinitions>
+              <Entry Placeholder="Mínimo"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     Keyboard="Numeric"/>
+              <Entry Placeholder="Máximo"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     Keyboard="Numeric"
+                     Grid.Column="1"/>
+            </Grid>
+            <local:HeaderDivider/>
+            <Grid Padding="{StaticResource StandardPadding}"
+                  ColumnSpacing="{StaticResource StandardSpacing}"
+                  BackgroundColor="White">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+              </Grid.ColumnDefinitions>
+              <Button Text="Adicionar"
+                      BackgroundColor="{StaticResource PrimaryDark}"
+                      TextColor="White"/>
+              <Button Text="Limpar"
+                      Grid.Column="1"
+                      BackgroundColor="{StaticResource PrimaryDark}"
+                      TextColor="White"/>
+            </Grid>
+          </StackLayout>
+        </Frame>
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <group android:id="@+id/nav_section_main"
+         android:checkableBehavior="single">
+    <item android:id="@+id/nav_consumo"
+      android:icon="@drawable/menu_consumo"
+      android:title="Consumo"/>
+    
+    <item android:id="@+id/nav_executarTarefa"
+          android:icon="@drawable/menu_executarTarefa"
+          android:title="Executar Tarefa"/>
+    
+    <item android:id="@+id/nav_agendarTarefa"
+          android:icon="@drawable/menu_agendarTarefa"
+          android:title="Agendar Tarefa"/>
+    
+    <item android:id="@+id/nav_andamento"
+          android:icon="@drawable/menu_andamento"
+          android:title="Andamento"/>    
+  </group>
+
+  <item android:title="Informações">
+    <menu>
+      <item android:id="@+id/nav_sobreArduino"
+          android:icon="@drawable/menu_sobreArduino"
+          android:title="Sobre o Arduino" />
+
+      <item android:id="@+id/nav_sobreSoftAndroid"
+          android:icon="@drawable/menu_sobreSoftAndroid"
+          android:title="Sobre o App Android" />
+
+      <item android:id="@+id/nav_sobreGrupo"
+          android:icon="@drawable/menu_sobreGrupo"
+          android:title="Sobre o grupo" />
+
+      <item android:id="@+id/nav_sobreDisciplina"
+          android:icon="@drawable/menu_sobreDisciplina"
+          android:title="Sobre a disciplina" />
+    </menu>
+  </item>
+        
+</menu>

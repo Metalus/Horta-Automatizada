@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HortaAutomatizada.Controls;assembly=HortaAutomatizada"
+             xmlns:toolkit="clr-namespace:FormsToolkit;assembly=FormsToolkit"
+             x:Class="HortaAutomatizada.Pages.ConsumoPage"
+             Title="{StaticResource NameApp}">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <toolkit:InvertedBooleanConverter x:Key="InvertedBooleanConverter" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <ScrollView>
+    <StackLayout Spacing="0">
+      <StackLayout BackgroundColor="{DynamicResource WindowBackgroundTable}"
+                   Spacing="{DynamicResource CardSpacing}"
+                   Padding="{DynamicResource CardPadding}">
+        <Frame>
+          <StackLayout Spacing="0">
+            <local:LabelSection Text="Consumo de água por dia"/>
+            <local:HeaderDivider/>
+            <ProgressBar Progress="{Binding WaterRate}"/>
+            <Label HorizontalOptions="End"
+                   Text="{Binding WaterInfo}"
+                   Style="{DynamicResource AboutDetailTextStyle}"/>
+            <Button Text="Alterar limite"
+                    Command="{Binding ChangeLimitWaterCommand}"
+                    IsVisible="{Binding ChangeLimitWater, Converter={StaticResource InvertedBooleanConverter}}"
+                    BackgroundColor="{StaticResource PrimaryDark}"
+                    TextColor="White"/>
+
+            <Grid IsVisible="{Binding ChangeLimitWater}"
+                  ColumnSpacing="{DynamicResource SmallSpacing}"
+                  Padding="{StaticResource SmallPadding}">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+              </Grid.ColumnDefinitions>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+              </Grid.RowDefinitions>
+              <Label Text="2L"
+                     Style="{DynamicResource AboutDetailTextStyle}"/>
+              <Slider Maximum="20"
+                      Minimum="2"
+                      Value="{Binding WaterLimit}"
+                      ValueChanged="WaterLimitChanged"
+                      Grid.Column="1"
+                      x:Name="LimitWater"/>
+              <Label Text="20L"
+                     Style="{DynamicResource AboutDetailTextStyle}"
+                     Grid.Column="2"/>
+              <Button Text="{Binding WaterLimit, StringFormat='Aplicar \{0\}L'}"
+                      Command="{Binding ApplyLimitWaterCommand}"
+                      WidthRequest="150"
+                      HorizontalOptions="Center"
+                      Grid.Column="1"
+                      Grid.Row="1"
+                      BackgroundColor="{StaticResource PrimaryDark}"
+                      TextColor="White"/>
+            </Grid>
+          </StackLayout>
+        </Frame>
+
+        <Frame>
+          <StackLayout Spacing="0">
+            <local:LabelSection Text="Consumo de energia por dia"/>
+            <local:HeaderDivider/>
+            <ProgressBar Progress="{Binding EnergyRate}"/>
+            <Label Text="{Binding EnergyInfo}"
+                   HorizontalOptions="End"
+                   Style="{DynamicResource AboutDetailTextStyle}"/>
+            <Button Text="Alterar limite"
+                    Command="{Binding ChangeLimitEnergyCommand}"
+                    IsVisible="{Binding ChangeLimitEnergy, Converter={StaticResource InvertedBooleanConverter}}"
+                    BackgroundColor="{StaticResource PrimaryDark}"
+                    TextColor="White"/>
+            <StackLayout IsVisible="{Binding ChangeLimitEnergy}"
+                         Spacing="0"
+                         Padding="{StaticResource StandardPadding}">
+              <Entry Placeholder="Limite"
+                     Keyboard="Numeric"
+                     HorizontalOptions="Center"
+                     x:Name="LimitEnergy"/>
+              <Button Text="Aplicar novo limite"
+                      Clicked="ApplyLimit"
+                      BackgroundColor="{StaticResource PrimaryDark}"
+                      TextColor="White"/>
+            </StackLayout>
+          </StackLayout>
+        </Frame>
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>
